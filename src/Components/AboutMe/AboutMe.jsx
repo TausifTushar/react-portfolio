@@ -6,12 +6,13 @@ import 'aos/dist/aos.css';
 const AboutMe = () => {
     useEffect(() => {
         AOS.init({
-          duration: 10000, // Animation duration in milliseconds
+          duration: 1000, // Animation duration in milliseconds
         });
       }, []);
   return (
-    <div className="flex justify-center gap-60 py-40 bg-[#171327]">
-      <div className="h-[300px] w-[300px]">
+    <div className="h-[100vh]">
+       <div className="flex justify-center items-center gap-40 py-40 h-[100vh] bg-[#171327]">
+      <div className="h-[300px] w-[300px] flex justify-center">
         <img src={image1} alt="" />
       </div>
       <div className="">
@@ -28,6 +29,8 @@ const AboutMe = () => {
         <button data-aos="zoom-in" className="text-white p-4 border-2 border-white rounded-lg mt-5">RESUME</button>
       </div>
     </div>
+    </div>
+   
   );
 };
 
