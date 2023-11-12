@@ -7,8 +7,11 @@ export default {
   theme: {
     extend: {
       boxShadow: {
-        'custom': '0px 0px 105px 45px rgba(45, 255, 195, 0.9)',
+        'custom': '0px 0px 92px 35px rgba(166, 55, 214, 0.9)',
+        'ccustom':  '0px 0px 29px 0px rgba(166, 55, 214, 0.9)',
       },
+      
+
     },
   },
   plugins: [],

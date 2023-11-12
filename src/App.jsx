@@ -1,13 +1,13 @@
-import { useState } from 'react'
-import reactLogo from './assets/react.svg'
-import viteLogo from '/vite.svg'
+// import { useState } from 'react'
+
 import './App.css'
 import Navbar from './Components/Navbar/Navbar'
-import { Outlet } from 'react-router-dom'
+// import { Outlet } from 'react-router-dom'
 import Cover from './Components/Cover/Cover'
 import AboutMe from './Components/AboutMe/AboutMe'
 import Services from './Components/Services/Services'
 import Projects from './Components/Projects/Projects'
+import ContactUs from './ContactUs/ContactUs'
 
 function App() {
 
@@ -20,6 +20,7 @@ function App() {
       <AboutMe></AboutMe>
       <Services></Services>
       <Projects></Projects>
+      <ContactUs></ContactUs>
     </>
   )
 }

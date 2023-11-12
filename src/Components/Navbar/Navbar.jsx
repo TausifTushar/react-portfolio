@@ -11,7 +11,7 @@ const Navbar = () => {
                   <p className=' font-bold text-2xl text-white'>Tausif Tushar</p>
                 </div>
                 <div className='flex'>
-               <Link> <li className=' text-white list-none mr-4 font-semibold text-lg  hover:border-b-2 hover:border-fuchsia-600 hover:text-fuchsia-600 transition cursor-pointer'>HOME</li></Link>
+                <li className=' text-white list-none mr-4 font-semibold text-lg  hover:border-b-2 hover:border-fuchsia-600 hover:text-fuchsia-600 transition cursor-pointer'>HOME</li>
                 <li className=' text-white list-none mr-4 font-semibold text-lg  hover:border-b-2 hover:border-fuchsia-600 hover:text-fuchsia-600 transition cursor-pointer'>ABOUT</li>
                 <li className=' text-white list-none mr-4 font-semibold text-lg  hover:border-b-2 hover:border-fuchsia-600 hover:text-fuchsia-600 transition cursor-pointer'>SKILL</li>
                 <li className=' text-white list-none mr-4 font-semibold text-lg  hover:border-b-2 hover:border-fuchsia-600 hover:text-fuchsia-600 transition cursor-pointer'>PORTFOLIO</li>

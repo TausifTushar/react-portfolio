@@ -3,6 +3,7 @@ import React, { useEffect } from "react";
  import { BsFacebook,BsGithub,BsInstagram,BsTwitter } from 'react-icons/bs';
  import AOS from 'aos';
  import 'aos/dist/aos.css';
+import { TypeAnimation } from "react-type-animation";
 const Cover = () => {
 
     useEffect(() => {
@@ -18,20 +19,37 @@ const Cover = () => {
           <h1 className=" font-bold text-5xl py-10">
             WELCOME TO <span className=" text-fuchsia-600">MY WEBSITE</span>
           </h1>
-          <p>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Eveniet
-            accusantium impedit <br />
-            magnam culpa rem quae ipsa enim consequuntur animi. Animi, provident
-            tenetur!
-            <br /> Consequuntur eveniet eaque placeat magni saepe neque ipsam.
-            Officiis sed quia <br />
-            exercitationem iusto, non soluta enim aspernatur blanditiis.
+          <p className="text-3xl font-semibold">
+            HI, I AM TAUSIF AHMED
+            <br />
+           <span className=" text-fuchsia-600">
+               
+             <TypeAnimation
+  sequence={[
+    'FRONTEND',
+    500,
+    'FRONTEND DEVELOPER', //  Continuing previous Text
+    500,
+    'FRONTEND DEVELOPER &',
+    500,
+    'FRONTEND DEVELOPER & QA',
+    500,
+    'FRONTEND DEVELOPER & QA ENGINEER',
+    500,
+    '',
+    500,
+  ]}
+  style={{ fontSize: '1em' }}
+  repeat={Infinity}
+/>
+             
+             </span>
           </p>
           <div className="flex gap-5 mt-7">
-        <h3 className=" hover:shadow-custom hover:border-2 hover:border-fuchsia-600 hover:drop-shadow-2xl p-2 rounded-3xl text-fuchsia-600 text-3xl"><BsFacebook className="" /></h3>
-        <h3 className=" hover:shadow-custom hover:border-2 hover:border-fuchsia-600 hover:shadow-3xl p-2 rounded-3xl text-fuchsia-600 text-3xl"><BsGithub className="" /></h3>
-        <h3 className=" hover:shadow-custom hover:border-2 hover:border-fuchsia-600 hover:shadow-3xl p-2 rounded-3xl text-fuchsia-600 text-3xl"><BsInstagram className="" /></h3>
-        <h3 className=" hover:shadow-custom hover:border-2 hover:border-fuchsia-600 hover:shadow-3xl p-2 rounded-3xl text-fuchsia-600 text-3xl"><BsTwitter className="" /></h3>
+        <h3 data-aos="fade-down" className=" hover:shadow-custom hover:border-2 hover:border-fuchsia-600 hover:drop-shadow-2xl p-2 rounded-3xl text-fuchsia-600 text-3xl"><BsFacebook className="" /></h3>
+        <h3 data-aos="fade-up" className=" hover:shadow-custom hover:border-2 hover:border-fuchsia-600 hover:shadow-3xl p-2 rounded-3xl text-fuchsia-600 text-3xl"><BsGithub className="" /></h3>
+        <h3 data-aos="fade-down" className=" hover:shadow-custom hover:border-2 hover:border-fuchsia-600 hover:shadow-3xl p-2 rounded-3xl text-fuchsia-600 text-3xl"><BsInstagram className="" /></h3>
+        <h3 data-aos="fade-up" className=" hover:shadow-custom hover:border-2 hover:border-fuchsia-600 hover:shadow-3xl p-2 rounded-3xl text-fuchsia-600 text-3xl"><BsTwitter className="" /></h3>
       </div>
         </div>
         <div data-aos="fade-left" className="w-[400px] h-[400px] flex">

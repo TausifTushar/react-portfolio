@@ -10,20 +10,19 @@ const AboutMe = () => {
         });
       }, []);
   return (
-    <div className="h-[100vh]">
+    <div id="about" className="h-[100vh]">
        <div className="flex justify-center items-center gap-40 py-40 h-[100vh] bg-[#171327]">
       <div className="h-[300px] w-[300px] flex justify-center">
         <img src={image1} alt="" />
       </div>
       <div className="">
         <h1 data-aos="fade-right" className="text-5xl  text-white font-abold">ABOUT ME</h1>
-        <p data-aos="fade-left" className=" text-white mt-6">
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Officia
-          praesentium autem itaque fugiat,
-          <br />
-          dignissimos pariatur ducimus voluptate, iure cupiditate nihil
-          molestias magnam minima temporibus <br />
-          tempora corporis. Illo quaerat enim porro.
+        <p data-aos="fade-left" className=" w-[600px] text-white mt-6">
+        Hello there! 👋 I'm Tausif Ahmed, a passionate React developer and seasoned Software Quality Assurance (SQA) 
+        engineer. With a keen eye for detail and a love for building user-friendly interfaces, 
+        I bring a unique blend of development and testing expertise to the digital landscape.
+        I'm always open to new opportunities and exciting challenges!
+        Thanks for stopping by, and I look forward to the possibility of working together.
         </p>
         
         <button data-aos="zoom-in" className="text-white p-4 border-2 border-white rounded-lg mt-5">RESUME</button>
