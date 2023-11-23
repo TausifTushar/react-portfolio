@@ -1,5 +1,5 @@
 /* eslint-disable react/jsx-no-target-blank */
-import image1 from "../../assets/young-bearded-man-with-striped-shirt_273609-5677.avif";
+import image1 from "../../assets/cover-photo.jpg";
 import React, { useEffect } from "react";
 import { BsFacebook, BsGithub, BsInstagram, BsTwitter } from "react-icons/bs";
 import AOS from "aos";
@@ -70,7 +70,7 @@ const Cover = () => {
             </h3>
           </div>
         </div>
-        <div data-aos="fade-left" className="w-[400px] h-[400px] flex">
+        <div data-aos="fade-left" className=" floating w-[400px] h-[400px] flex">
           <img
             className=" shadow-custom rounded-[1500px]"
             src={image1}

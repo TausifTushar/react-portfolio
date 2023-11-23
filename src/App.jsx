@@ -8,6 +8,7 @@ import AboutMe from './Components/AboutMe/AboutMe'
 import Services from './Components/Services/Services'
 import Projects from './Components/Projects/Projects'
 import ContactUs from './ContactUs/ContactUs'
+import { Outlet } from 'react-router-dom'
 
 function App() {
 
@@ -16,6 +17,7 @@ function App() {
     <>
    
       <Navbar></Navbar>
+      {/* <Outlet></Outlet> */}
       <Cover></Cover>
       <AboutMe></AboutMe>
       <Services></Services>
